@@ -11,7 +11,7 @@ import { PhotosComponent } from './photos.component';
   ],
   imports: [
     CommonModule,
-    PhotosRoutingModule
+    PhotosRoutingModule,
   ]
 })
 export class PhotosModule { }

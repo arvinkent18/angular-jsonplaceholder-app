@@ -1,3 +1,4 @@
+import { PhotosService } from './photos.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PhotosComponent implements OnInit {
 
-  constructor() { }
-
+  constructor(private photosService: PhotosService) { }
+  
   ngOnInit(): void {
+    
   }
 
 }
